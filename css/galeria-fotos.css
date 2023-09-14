@@ -1,0 +1,60 @@
+.gradient {
+  background: linear-gradient(-30deg, #191970, #4169E1, #00BFFF);
+  background-size: auto 150%;
+  position: relative;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#galeria-fotos {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagem {
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.imagem:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
